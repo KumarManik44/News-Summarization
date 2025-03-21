@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+streamlit
+textblob
+gtts
+deep-translator
+transformers
+torch
+pydantic
