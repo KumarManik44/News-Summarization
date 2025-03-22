@@ -57,7 +57,8 @@ Third-Party API Integrations:
 
 Assumptions & Limitations:
 1. Assumptions
-- The news articles contain accurate and relevant information about the company.- TextBlob’s sentiment analysis is sufficient for basic classification (Positive, Negative, Neutral).
+- The news articles contain accurate and relevant information about the company.
+- TextBlob’s sentiment analysis is sufficient for basic classification (Positive, Negative, Neutral).
 - Summarization works well with news articles and extracts key information correctly.
 - GoogleTranslator provides reliable English-to-Hindi translations without significant errors.
 
