@@ -55,6 +55,19 @@ Third-Party API Integrations:
 - GoogleTranslator	- Translates English summaries into Hindi.
 - gTTS - (Google Text-to-Speech)	Converts English and Hindi text into speech.
 
+Assumptions & Limitations:
+1. Assumptions
+- The news articles contain accurate and relevant information about the company.- TextBlob’s sentiment analysis is sufficient for basic classification (Positive, Negative, Neutral).
+- Summarization works well with news articles and extracts key information correctly.
+- GoogleTranslator provides reliable English-to-Hindi translations without significant errors.
+
+2. Limitations
+- Summarization accuracy depends on the input article's content. If the text is too short, summarization may fail.
+- Sentiment analysis does not consider context deeply—it only looks at words' polarity and may misclassify sarcasm or complex opinions.
+- Text-to-Speech output depends on Google TTS and translation quality, which may not always be 100% accurate.
+- NewsAPI has request limits, so excessive requests may result in API restrictions.
+- Some articles may lack complete text, leading to less accurate summaries.
+
 License:
 - This project is licensed under the MIT License.
 
